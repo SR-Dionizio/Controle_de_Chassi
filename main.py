@@ -51,7 +51,7 @@ class BuscaChassis:
 
 escolha = 0
 
-while escolha < 3:
+while escolha < 4:
 
     print("***************************************************")
     print("************Controle de chassis 2023***************")
@@ -59,7 +59,7 @@ while escolha < 3:
 
     print("***************************************************")
     print("**Escolha (1) para cadastrar e (2) para pesquisar**")
-    print("************Escolha (3) para sair******************")
+    print("***Escolha (3) para mostrar tudo e (4) para sair***")
     print("***************************************************")
 
     escolha = int(input("Digite: "))
@@ -82,3 +82,14 @@ while escolha < 3:
         resultado = BuscaChassis(pesquisa)
 
         resultado.get_busca(pesquisa)
+
+    elif escolha == 3:
+        arquivo_lista = open("registro_de_chassis.txt", "r", encoding="utf-8")
+        registro_completo = arquivo_lista.readlines()
+
+        cadastro = []
+
+        for linha in registro_completo:
+            linha = linha.strip()
+            cadastro.append(linha)
+            print(linha)
