@@ -2,3 +2,6 @@ Número de chassis = 1234 - Nome do cliente = Exemplo - Lote = A1 - Mês = Janei
 Número de chassis = 4321 - Nome do cliente = Ferrari - Lote = B3 - Mês = Março - Ano = 2021 - Observações = Não
 Número de chassis = 6543 - Nome do cliente = Mercedes - Lote = D2 - Mês = 2023 - Ano = Janeiro - Observações = Não
 Número de chassis = 7890 - Nome do cliente = VolksWagen - Lote = A1 - Mês = Março - Ano = 2020 - Observações = Não
+Número de chassis = 4444 - Nome do cliente = Fiat - Lote = A1 - Mês = Janeiro - Ano = 2023 - Observações = n
+Número de chassis = 5555 - Nome do cliente = honda - Lote = A1 - Mês = Janeiro - Ano = 2023 - Observações = Não
+Número de chassis = 0987 - Nome do cliente = Audi - Lote = D4 - Mês = Janeiro - Ano = 2023 - Observações = Pendente pintura
