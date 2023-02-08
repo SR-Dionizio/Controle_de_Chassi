@@ -35,7 +35,7 @@ while escolha < 4:
 
         resultado = BuscaChassis(pesquisa)
 
-        resultado.get_busca(pesquisa)
+        resultado.get_busca()
 
     elif escolha == 3:
         arquivo_lista = open("registro_de_chassis.txt", "r", encoding="utf-8")

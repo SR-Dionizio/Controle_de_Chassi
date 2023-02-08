@@ -1,21 +1,23 @@
+import pyodbc
+
 class BuscaChassis:
     def __init__(self, busca):
         self.busca = busca
 
-    def get_busca(self, busca):
-        arquivo_lista = open("registro_de_chassis.txt", "r", encoding="utf-8")
-        registro_completo = arquivo_lista.readlines()
+    def get_busca(self):
+        dados_conexao = (
+            "Driver={SQL Server};"
+            "Server=DESKTOP-NARQ1ID;"
+            "Database=PTO_TRUCK;"
+        )
 
-        cadastro = []
-        pesquisa_digitada = busca
-        for linha in registro_completo:
-            cadastro.append(linha)
+        conexao = pyodbc.connect(dados_conexao)
 
-            elemento_encontrado = None
+        cursor = conexao.cursor()
 
-            if pesquisa_digitada in linha:
-                elemento_encontrado = linha
-                print(elemento_encontrado)
-                break
-        if not elemento_encontrado:
-            print("Cadastro não encontrado")
+        query = f"""select * from [Registro de Chassis] where [Número de Chassis] = '{self.busca}'"""
+
+        cursor.execute(query)
+        resultado = cursor.fetchall()
+        for item in resultado:
+            print(item)
