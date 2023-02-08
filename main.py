@@ -1,29 +1,36 @@
+import pyodbc
+
 class ControleChassis:
-    def __init__(self, chassis, cliente, lote, mes, ano, observacoes):
+    def __init__(self, chassis, cliente, lote, mes):
         self.chassis = chassis
         self.cliente = cliente
         self.lote = lote
         self.mes = mes
-        self.ano = ano
-        self.observacoes = observacoes
 
     def cadastra(self):
-        arquivo_lista = open("registro_de_chassis.txt", "a", encoding="utf-8")
+        dados_conexao = (
+            "Driver={SQL Server};"
+            "Server=DESKTOP-NARQ1ID;"
+            "Database=PTO_TRUCK;"
+        )
 
-        entrada_de_dados = f'Número de chassis = {self.chassis} - Nome do cliente = {self.cliente} - Lote = {self.lote} - Mês = {self.mes} - Ano = {self.ano} - Observações = {self.observacoes}'
+        conexao = pyodbc.connect(dados_conexao)
 
-        arquivo_lista.write(entrada_de_dados)
-        arquivo_lista.write("\n")
-        arquivo_lista = open("registro_de_chassis.txt", "r", encoding="utf-8")
-        registro_completo = arquivo_lista.readlines()
+        cursor = conexao.cursor()
 
-        cadastro = []
+        query = f"""INSERT INTO [dbo].[Registro de Chassis]
+            ([Número de Chassis]
+            ,[Nome do cliente]
+            ,[Lote]
+            ,[Mês])
+                VALUES
+                    ('{self.chassis}', '{self.cliente}', '{self.lote}', '{self.mes}')"""
 
-        for linha in registro_completo:
-            linha = linha.strip()
-            cadastro.append(linha)
+        cursor.execute(query)
+        cursor.commit()
 
-        print(f'{self.cliente} cadastrado com sucesso')
+        print('Chassis cadastrado')
+
 
 
 class BuscaChassis:
@@ -69,10 +76,8 @@ while escolha < 4:
         nome_cliente = input("Digite o nome do cliente\n")
         lote = input(f'Digite o lote do {nome_cliente}\n')
         mes = input("Qual o mês que foi feito?\n")
-        ano = input("De qual ano?\n")
-        observacoes = input("Tem alguma observação?\n")
 
-        controle_2023 = ControleChassis(numero_chassi, nome_cliente, lote, mes, ano, observacoes)
+        controle_2023 = ControleChassis(numero_chassi, nome_cliente, lote, mes)
 
         controle_2023.cadastra()
 
