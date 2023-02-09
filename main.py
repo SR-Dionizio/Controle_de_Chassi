@@ -38,12 +38,4 @@ while escolha < 4:
         resultado.get_busca()
 
     elif escolha == 3:
-        arquivo_lista = open("registro_de_chassis.txt", "r", encoding="utf-8")
-        registro_completo = arquivo_lista.readlines()
-
-        cadastro = []
-
-        for linha in registro_completo:
-            linha = linha.strip()
-            cadastro.append(linha)
-            print(linha)
+        BuscaChassis(escolha).retornar_todos_dados()
