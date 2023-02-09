@@ -1,9 +1,12 @@
 from datas_br import DatasBR
 from BuscaChassis import BuscaChassis
 from ControleChassis import ControleChassis
+<<<<<<< HEAD
 
 cadastra_mes = DatasBR()
 formato_mes = cadastra_mes.mes_cadastro()
+=======
+>>>>>>> testes
 
 cadastra_ano = DatasBR()
 formato_ano = cadastra_ano.Ano()
@@ -26,11 +29,16 @@ while escolha < 4:
         numero_chassi = input("Digite o número de chassis\n")
         nome_cliente = input("Digite o nome do cliente\n")
         lote = input(f'Digite o lote do {nome_cliente}\n')
+<<<<<<< HEAD
         mes = formato_mes
         ano = formato_ano
         observacoes = input("Tem alguma observação?\n")
+=======
+        mes = input(f'Digite o mês que foi feito\n')
+        ano = formato_ano
+>>>>>>> testes
 
-        controle_2023 = ControleChassis(numero_chassi, nome_cliente, lote, mes, ano, observacoes)
+        controle_2023 = ControleChassis(numero_chassi, nome_cliente, lote, mes, ano)
 
         controle_2023.cadastra()
 
@@ -39,15 +47,7 @@ while escolha < 4:
 
         resultado = BuscaChassis(pesquisa)
 
-        resultado.get_busca(pesquisa)
+        resultado.get_busca()
 
     elif escolha == 3:
-        arquivo_lista = open("registro_de_chassis.txt", "r", encoding="utf-8")
-        registro_completo = arquivo_lista.readlines()
-
-        cadastro = []
-
-        for linha in registro_completo:
-            linha = linha.strip()
-            cadastro.append(linha)
-            print(linha)
+        BuscaChassis(escolha).retornar_todos_dados()

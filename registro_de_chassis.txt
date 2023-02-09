@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Número de chassis = 1234 - Nome do cliente = Exemplo - Lote = A1 - Mês = Janeiro - Ano = 2023 - Observações = Atraso na entrega de matéria prima
 Número de chassis = 4321 - Nome do cliente = Ferrari - Lote = B3 - Mês = Março - Ano = 2021 - Observações = Não
 Número de chassis = 6543 - Nome do cliente = Mercedes - Lote = D2 - Mês = 2023 - Ano = Janeiro - Observações = Não
@@ -5,3 +6,31 @@ Número de chassis = 7890 - Nome do cliente = VolksWagen - Lote = A1 - Mês = Ma
 Número de chassis = 4444 - Nome do cliente = Fiat - Lote = A1 - Mês = Janeiro - Ano = 2023 - Observações = n
 Número de chassis = 5555 - Nome do cliente = honda - Lote = A1 - Mês = Janeiro - Ano = 2023 - Observações = Não
 Número de chassis = 0987 - Nome do cliente = Audi - Lote = D4 - Mês = Janeiro - Ano = 2023 - Observações = Pendente pintura
+=======
+Número de chassis = 4893 - Nome do cliente = 4R - Lote = A6 - Mês = Janeiro - Ano = 2023 - Observações = Não
+Número de chassis = 1048 - Nome do cliente = MBB Teyma - Lote = A1 - Mês = Janeiro - Ano = 2023 - Observações = Encurtamento, troca de molas e instalação de tomada de força
+Número de chassis = 8318 - Nome do cliente = Sustentare - Lote = A2 - Mês = Janeiro - Ano = 2023 - Observações = Não
+Número de chassis = 5235 - Nome do cliente = Sustentare - Lote = A3 - Mês = Janeiro - Ano = 2023 - Observações = Conjunto traseiro fornecido errado
+Número de chassis = 8024 - Nome do cliente = Sustentare - Lote = A4 - Mês = Janeiro - Ano = 2023 - Observações = Conjunto traseiro fornecido errado
+Número de chassis = 8420 - Nome do cliente = Sustentare - Lote = A5 - Mês = Janeiro - Ano = 2023 - Observações = Conjunto traseiro fornecido errado
+Número de chassis = 8316 - Nome do cliente = Marcelo de Paola - Lote = A1 - Mês = Janeiro - Ano = 2023 - Observações = Guia não fornecida
+Número de chassis = 6710 - Nome do cliente = Limpcity - Lote = A1 - Mês = Janeiro - Ano = 2023 - Observações = Guia não fornecida
+Número de chassis = 6793 - Nome do cliente = Limpcity - Lote = A2 - Mês = Janeiro - Ano = 2023 - Observações = Guia não fornecida
+Número de chassis = 8492 - Nome do cliente = Limpcity - Lote = A3 - Mês = Janeiro - Ano = 2023 - Observações = Guia não fornecida
+Número de chassis = 7479 - Nome do cliente = Saneloc - Lote = A5 - Mês = Janeiro - Ano = 2023 - Observações = Guia não fornecida
+Número de chassis = 4412 - Nome do cliente = Mello de Azevedo - Lote = A1 - Mês = Janeiro - Ano = 2023 - Observações = Encurtamento e tomada de força
+Número de chassis = 8728 - Nome do cliente = Limpcity - Lote = A4 - Mês = Janeiro - Ano = 2023 - Observações = Não
+Número de chassis = 9815 - Nome do cliente = Setta Engenharia - Lote = A1 - Mês = Janeiro - Ano = 2023 - Observações = Conjunto dianteiro não entregue
+Número de chassis = 4984 - Nome do cliente = Mello de Azevedo - Lote = A2 - Mês = Janeiro - Ano = 2023 - Observações = Encurtamento e instalação de tomada de força
+Número de chassis = 9272 - Nome do cliente = Limpcity - Lote = A6 - Mês = Janeiro - Ano = 2023 - Observações = Atraso na entrega do conjunto dianteiro
+Número de chassis = 9863 - Nome do cliente = Limpcity - Lote = A7 - Mês = Janeiro - Ano = 2023 - Observações = Não
+Número de chassis = 6708 - Nome do cliente = Limpcity - Lote = A8 - Mês = Janeiro - Ano = 2023 - Observações = Não
+Número de chassis = 6818 - Nome do cliente = Limpcity - Lote = A5 - Mês = Janeiro - Ano = 2023 - Observações = Não
+Número de chassis = 0819 - Nome do cliente = MBB Autoleader - Lote = C5 - Mês = Janeiro - Ano = 2023 - Observações = Atraso na entrega de toda a preparação
+Número de chassis = 7136 - Nome do cliente = Inchcape - Lote = B1 - Mês = Janeiro - Ano = 2023 - Observações = Atraso na entrega da preparação de chassis
+Número de chassis = 4485 - Nome do cliente = Inchcape - Lote = A5 - Mês = Janeiro - Ano = 2023 - Observações = Atraso na entrega do material de preparação de chassis
+Número de chassis = 6934 - Nome do cliente = Campi Ambiental - Lote = A2 - Mês = Janeiro - Ano = 2023 - Observações = Atraso na entrega de guias
+Número de chassis = 5984 - Nome do cliente = União Ambiental - Lote = A1 - Mês = Janeiro - Ano = 2023 - Observações = Encurtamento e instalação de tomada de força
+Número de chassis = 8418 - Nome do cliente = Renove - Lote = A1 - Mês = Janeiro - Ano = 2023 - Observações = Encurtamento e instalação de tomada de força
+Número de chassis = 3423 - Nome do cliente = Vital - Lote = M1 - Mês = Janeiro - Ano = 2023 - Observações = Alongamento feito pela usimeca
+>>>>>>> testes
