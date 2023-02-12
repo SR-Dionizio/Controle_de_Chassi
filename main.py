@@ -1,13 +1,10 @@
 from datas_br import DatasBR
 from BuscaChassis import BuscaChassis
 from ControleChassis import ControleChassis
-<<<<<<< HEAD
+
 
 cadastra_mes = DatasBR()
 formato_mes = cadastra_mes.mes_cadastro()
-=======
->>>>>>> testes
-
 cadastra_ano = DatasBR()
 formato_ano = cadastra_ano.Ano()
 
@@ -29,17 +26,10 @@ while escolha < 4:
         numero_chassi = input("Digite o número de chassis\n")
         nome_cliente = input("Digite o nome do cliente\n")
         lote = input(f'Digite o lote do {nome_cliente}\n')
-<<<<<<< HEAD
-        mes = formato_mes
-        ano = formato_ano
-        observacoes = input("Tem alguma observação?\n")
-=======
         mes = input(f'Digite o mês que foi feito\n')
         ano = formato_ano
->>>>>>> testes
 
         controle_2023 = ControleChassis(numero_chassi, nome_cliente, lote, mes, ano)
-
         controle_2023.cadastra()
 
     elif escolha == 2:
