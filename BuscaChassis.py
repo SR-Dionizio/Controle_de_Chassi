@@ -7,7 +7,7 @@ class BuscaChassis:
     def get_busca(self):
         dados_conexao = (
             "Driver={SQL Server};"
-            "Server=DESKTOP-NARQ1ID;"
+            "Server=DANIEL;"
             "Database=PTO_TRUCK;"
         )
 
