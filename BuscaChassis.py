@@ -25,7 +25,7 @@ class BuscaChassis:
     def retornar_todos_dados(self):
         dados_conexao = (
             "Driver={SQL Server};"
-            "Server=DESKTOP-NARQ1ID;"
+            "Server=DANIEL;"
             "Database=PTO_TRUCK;"
         )
 
