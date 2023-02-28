@@ -3,10 +3,8 @@ from BuscaChassis import BuscaChassis
 from ControleChassis import ControleChassis
 
 
-cadastra_mes = DatasBR()
-formato_mes = cadastra_mes.mes_cadastro()
-cadastra_ano = DatasBR()
-formato_ano = cadastra_ano.Ano()
+data = DatasBR()
+formato_ano = data.Ano()
 
 escolha = 0
 while escolha < 4:
