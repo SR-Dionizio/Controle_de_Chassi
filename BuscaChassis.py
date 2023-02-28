@@ -8,7 +8,7 @@ class BuscaChassis:
         dados_conexao = (
             "Driver={SQL Server};"
             "Server=DANIEL;"
-            "Database=PTO_TRUCK;"
+            "Database=controle_chassis;"
         )
 
         conexao = pyodbc.connect(dados_conexao)
@@ -26,7 +26,7 @@ class BuscaChassis:
         dados_conexao = (
             "Driver={SQL Server};"
             "Server=DANIEL;"
-            "Database=PTO_TRUCK;"
+            "Database=controle_chassis;"
         )
 
         conexao = pyodbc.connect(dados_conexao)
