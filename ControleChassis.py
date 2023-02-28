@@ -12,7 +12,7 @@ class ControleChassis:
     def cadastra(self):
         dados_conexao = (
             "Driver={SQL Server};"
-            "Server=DESKTOP-NARQ1ID;"
+            "Server=DANIEL;"
             "Database=PTO_TRUCK;"
         )
 
