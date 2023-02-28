@@ -5,9 +5,9 @@ class DatasBR:
         self.momento_cadastro = datetime.today()
     def mes_cadastro(self):
         meses_ano = [
-            "Janeiro", "Fevereiro", "Março", "Abril", 
-            "maio", "Junho", "Julho", "Agosto", "Setembro",
-            "Outubro", "Novembro", "Dezembro"
+            "Jan", "Fev", "Mar", "Abr", 
+            "mai", "Jun", "Jul", "Ago", "Set",
+            "Out", "Nov", "Dez"
         ]
         mes_cadastro = self.momento_cadastro.month -1
         return meses_ano[mes_cadastro]
