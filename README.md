@@ -59,10 +59,6 @@ Contribuições são bem-vindas! Caso queira colaborar com o projeto, siga os pa
 
 5. Aguarde o feedback e a revisão do pull request.
 
-## Autor
-
-O projeto Controle de Chassi foi desenvolvido por Daniel Dionizio. Você pode encontrar mais informações sobre o autor em seu [LinkedIn](https://www.linkedin.com/in/daniel-dionizio-santos/).
-
 ## Licença
 
 Este projeto está licenciado sob a licença MIT. Para mais informações, consulte o arquivo [LICENSE](https://github.com/SR-Dionizio/Controle_de_Chassi/blob/main/LICENSE).
